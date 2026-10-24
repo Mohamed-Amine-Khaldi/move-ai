@@ -45,4 +45,5 @@ Mohamed-Amine-Khaldi
   <img src="screenshots/screen3.png" width="30%" />
   <img src="screenshots/screen4.png" width="30%" />
   <img src="screenshots/screen5.png" width="30%" />
+  <img src="screenshots/screen6.png" width="30%" />
 </p>
