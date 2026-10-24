@@ -26,7 +26,7 @@ MOVE AI is an advanced Android application built with Kotlin designed to assist 
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Mohamed-Amine-Khaldi/move-ai.git](https://github.com/Mohamed-Amine-Khaldi/move-ai.git)
+   git clone (https://github.com/Mohamed-Amine-Khaldi/move-ai.git)
 
 1. Open the project folder in Android Studio.
 
@@ -36,3 +36,13 @@ MOVE AI is an advanced Android application built with Kotlin designed to assist 
 
 👨‍💻 Author
 Mohamed-Amine-Khaldi
+
+## 📱 Screenshots
+
+<p align="center">
+  <img src="screenshots/screen1.png" width="30%" />
+  <img src="screenshots/screen2.png" width="30%" />
+  <img src="screenshots/screen3.png" width="30%" />
+  <img src="screenshots/screen4.png" width="30%" />
+  <img src="screenshots/screen5.png" width="30%" />
+</p>
