@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0F19"
+    android:clipChildren="false"> <FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/bottomNavContainer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_bottom_nav"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <RelativeLayout
+            android:id="@+id/tab_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clipChildren="false">
+
+            <View android:id="@+id/bg_home" android:layout_width="45dp" android:layout_height="45dp" android:layout_centerHorizontal="true" android:layout_marginTop="5dp" android:background="@drawable/bg_floating_circle" android:alpha="0" />
+            <ImageView android:id="@+id/icon_home" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerHorizontal="true" android:layout_marginTop="15dp" android:src="@android:drawable/ic_menu_myplaces" app:tint="#FFFFFF" />
+            <TextView android:id="@+id/text_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="10dp" android:text="Home" android:textSize="12sp" android:textStyle="bold" android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tab_trainer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clipChildren="false">
+
+            <View android:id="@+id/bg_trainer" android:layout_width="45dp" android:layout_height="45dp" android:layout_centerHorizontal="true" android:layout_marginTop="5dp" android:background="@drawable/bg_floating_circle" android:alpha="0" />
+            <ImageView android:id="@+id/icon_trainer" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerHorizontal="true" android:layout_marginTop="15dp" android:src="@android:drawable/ic_menu_camera" app:tint="#FFFFFF" />
+            <TextView android:id="@+id/text_trainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="10dp" android:text="Trainer" android:textSize="12sp" android:textStyle="bold" android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tab_map"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clipChildren="false">
+
+            <View android:id="@+id/bg_map" android:layout_width="45dp" android:layout_height="45dp" android:layout_centerHorizontal="true" android:layout_marginTop="5dp" android:background="@drawable/bg_floating_circle" android:alpha="0" />
+            <ImageView android:id="@+id/icon_map" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerHorizontal="true" android:layout_marginTop="15dp" android:src="@android:drawable/ic_menu_mapmode" app:tint="#FFFFFF" />
+            <TextView android:id="@+id/text_map" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="10dp" android:text="Map" android:textSize="12sp" android:textStyle="bold" android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tab_food"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clipChildren="false">
+
+            <View android:id="@+id/bg_food" android:layout_width="45dp" android:layout_height="45dp" android:layout_centerHorizontal="true" android:layout_marginTop="5dp" android:background="@drawable/bg_floating_circle" android:alpha="0" />
+            <ImageView android:id="@+id/icon_food" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerHorizontal="true" android:layout_marginTop="15dp" android:src="@android:drawable/ic_menu_info_details" app:tint="#FFFFFF" />
+            <TextView android:id="@+id/text_food" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="10dp" android:text="Diet" android:textSize="12sp" android:textStyle="bold" android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

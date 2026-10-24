@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_trainer"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="AI Trainer" />
+
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Tracker" />
+
+    <item
+        android:id="@+id/nav_food"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Diet" />
+</menu>
